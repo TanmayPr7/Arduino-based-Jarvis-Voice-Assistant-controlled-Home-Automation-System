@@ -9,3 +9,11 @@
 
 # Library Required
 //No Library required for thsi project
+
+# Hardware Requirements
+1.Pair of Scissors
+2.Soldering Iron
+3.Double Sided Tape
+4.Cardboard or Sunboard
+5.Electrical Wire
+
