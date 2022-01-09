@@ -2,3 +2,8 @@
 inspired by Iron Man's AI Intelligence(JARVIS), which uses microcontroller(Arduino),
 relay switches, bluetooth module, led's, etc and controlled by users voice command
 with Jarvis AI intelligence.
+
+# Basically it uses HC 05 bluetooth module which get paired and connected with any
+android device from which you want to controll your home automation system after
+getting connected, it recognizes command spoken by user and works according the program
+and sends 
