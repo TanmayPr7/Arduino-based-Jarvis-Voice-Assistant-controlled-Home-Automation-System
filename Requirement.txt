@@ -6,3 +6,6 @@
 5.Braedboard
 6.LED's
 7.10k Resistors
+
+# Library Required
+//No Library required for thsi project
