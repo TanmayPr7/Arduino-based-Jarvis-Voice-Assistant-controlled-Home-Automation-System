@@ -9,3 +9,5 @@ getting connected, it recognizes command spoken by user and works according to t
 program and sends signals to microcontroller(Arduino) after reciving signals Arduino
 works according to main program and trun relay switches on or of, according to voice
 command of user and main source code of this project.
+
+# That's it this the basic working principle of this project:)
