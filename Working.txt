@@ -5,5 +5,7 @@ with Jarvis AI intelligence.
 
 # Basically it uses HC 05 bluetooth module which get paired and connected with any
 android device from which you want to controll your home automation system after
-getting connected, it recognizes command spoken by user and works according the program
-and sends 
+getting connected, it recognizes command spoken by user and works according to the
+program and sends signals to microcontroller(Arduino) after reciving signals Arduino
+works according to main program and trun relay switches on or of, according to voice
+command of user and main source code of this project.
