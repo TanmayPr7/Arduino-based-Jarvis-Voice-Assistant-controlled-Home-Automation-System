@@ -1,0 +1,6 @@
+# Component Required
+1.Arduino UNO
+2.4 channel Relay Module(Switch number of channel as per your requirements)
+3.HC 05 Bluetooth Module
+4.Jumper Cables
+5.Braedboard
