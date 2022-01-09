@@ -17,3 +17,4 @@
 4.Cardboard or Sunboard
 5.Electrical Wire
 
+# That's it these are all the basic requirements for this project:)
