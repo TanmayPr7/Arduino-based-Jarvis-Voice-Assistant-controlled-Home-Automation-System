@@ -1,0 +1,4 @@
+# This Arduino based basic Voice controlled Home Automation System
+inspired by Iron Man's AI Intelligence(JARVIS), which uses microcontroller(Arduino),
+relay switches, bluetooth module, led's, etc and controlled by users voice command
+with Jarvis AI intelligence.
