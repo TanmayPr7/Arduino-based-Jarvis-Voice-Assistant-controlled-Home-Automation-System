@@ -42,3 +42,46 @@ void loop()
     if (c == '#') {break;} //Exit the loop when the # is detected after the word
     voice += c; //Shorthand for voice = voice + c
   }
+  if (voice.length() > 0)
+  ////////////////////////////////////////////////////////////////////
+  {
+    if(voice == "*jarvis turn on board"){           //Voice Command to ON Relay 01 
+      digitalWrite(relay1, LOW);   //Relay 01 ON
+      }
+    else if(voice == "*jarvis turn on night light"){      //Voice Command to ON Relay 02 
+      digitalWrite(relay2, LOW);   //Relay 02 ON
+      }
+    else if(voice == "*jarvisturn on LED") {     //Voice Command to ON Relay 03
+      digitalWrite(relay3, LOW);   //Relay 03 ON
+    }
+    else if(voice == "*jarvis turn on fan") {     //Voice Command to ON Relay 04 
+      digitalWrite(relay4, LOW);   //Relay 04 ON
+    }
+    
+    ////////////////////////////////////////////////////////////////////
+    
+    else if(voice == "*jarvis turn off board") {      //Voice Command to OFF Relay 01 
+      digitalWrite(relay1, HIGH);   //Relay 01 OFF
+    }
+    else if(voice == "*jarvis turn off night light") {      //Voice Command to OFF Relay 02
+      digitalWrite(relay2, HIGH);   //Relay 02 OFF
+    }
+    else if(voice == "*jarvis turn off LED") {      //Voice Command to OFF Relay 02
+      digitalWrite(relay3, HIGH);   //Relay 03 OFF
+    }
+    else if(voice == "*jarvis turn off fan") {      //Voice Command to OFF Relay 02
+      digitalWrite(relay4, HIGH);   //Relay 04 OFF
+    }
+    
+    ////////////////////////////////////////////////////////////////////
+    
+    else if(voice == "*jarvis turn all devices on") {      //Voice Command to ON all Relays
+      switchallon();                //All Relays ON
+    }
+    else if(voice == "*jarvis turn all devices off") {      //Voice Command to OFF all Relays
+      switchalloff();               //All Relays OFF
+    }
+    
+  voice=""; //Reset the variable after initiating
+  }
+}
