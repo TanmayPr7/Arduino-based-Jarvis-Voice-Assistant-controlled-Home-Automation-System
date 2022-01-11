@@ -18,3 +18,19 @@ void setup()
   digitalWrite(relay3, HIGH);     //Switch relay3 off
   digitalWrite(relay4, HIGH);     //Swtich relay4 off
 }
+
+void switchalloff()               //Function for turning OFF all relays
+{
+  digitalWrite(relay1, HIGH);
+  digitalWrite(relay2, HIGH);
+  digitalWrite(relay3, HIGH);
+  digitalWrite(relay4, HIGH);
+}
+void switchallon()                //Function for turning ON all relays
+{
+  digitalWrite(relay1, LOW);
+  digitalWrite(relay2, LOW);
+  digitalWrite(relay3, LOW);
+  digitalWrite(relay4, LOW);
+}
+
