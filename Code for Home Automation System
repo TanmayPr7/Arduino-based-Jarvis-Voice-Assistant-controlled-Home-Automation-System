@@ -1,0 +1,20 @@
+# This is the main source code for this Arduino Jarvis AI voice controlled Home Automation System
+
+#define relay1 2    //Connect relay1 to pin 2
+#define relay2 3    //Connect relay2 to pin 3
+#define relay3 4    //Connect relay3 to pin 4
+#define relay4 5    //Connect relay4 to pin 5
+String voice;
+
+void setup()
+{
+  Serial.begin(9600);            //Set rate for communicating with phone
+  pinMode(relay1, OUTPUT);       //Set relay1 as an output
+  pinMode(relay2, OUTPUT);       //Set relay2 as an output
+  pinMode(relay3, OUTPUT);       //Set relay3 as an output
+  pinMode(relay4, OUTPUT);       //Set relay4 as an output
+  digitalWrite(relay1, HIGH);     //Switch relay1 off
+  digitalWrite(relay2, HIGH);     //Swtich relay2 off
+  digitalWrite(relay3, HIGH);     //Switch relay3 off
+  digitalWrite(relay4, HIGH);     //Swtich relay4 off
+}
