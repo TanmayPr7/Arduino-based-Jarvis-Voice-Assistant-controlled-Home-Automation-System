@@ -34,3 +34,11 @@ void switchallon()                //Function for turning ON all relays
   digitalWrite(relay4, LOW);
 }
 
+void loop() 
+{
+  while (Serial.available()){ //Check if there is an available byte to read
+     delay(10); //Delay added to make thing stable 
+    char c = Serial.read(); //Conduct a serial read
+    if (c == '#') {break;} //Exit the loop when the # is detected after the word
+    voice += c; //Shorthand for voice = voice + c
+  }
